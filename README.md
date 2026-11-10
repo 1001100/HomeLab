@@ -22,9 +22,7 @@ Pi-hole useful as blocker for simple ads on search sites, websites, cookie track
 **Purpose:** Access to hosted models via API for more compute. Prompts and any data are processed by model provider OpenRouter routes to, with security guarantees. Satisfied with this level of privacy when using OpenTerminal, sharing personal information, and access to personal PC files
 
 ##### OpenTerminal
-**Purpose:** Since OpenWebUI on homelab and reachable remotely, this allows a terminal connection to personal PC.
-**Comments** 
-This gives potentially dangerous permissions to an LLM, so this scope is restricted to home folders via Docker Container. This limits any worst case scenarios, and an LLM isnt needed anywhere else for me. This is paired with safety prompts for the LLM. Likely not an airtight solution, and if relied on more I would update or upgrade tools
+**Purpose:** Since OpenWebUI on homelab and reachable remotely, this allows a terminal connection to personal PC. This gives potentially dangerous permissions to an LLM, so this scope is restricted to home folders via Docker Container. This limits any worst case scenarios, and an LLM isnt needed anywhere else for me. This is paired with safety prompts for the LLM. Likely not an airtight solution, and if relied on more I would update or upgrade tools
 
 ### Zotero File Storage
 ### Samba Storage
