@@ -39,5 +39,12 @@ Not sure of storage needs over time, so using a bind mount from Proxmox host int
 
 **Comments**
 Allocated 100GB thin provisioned storage, since uploading larger files are more common and prevents filling the host and affecting other services. This also comes with more benefits like easier permissions and backups, but havent utilized these yet.
+
 ### Home Assistant
+**Purpose:** Open source hub to control smart lights and plugs, with room to expand home automation
+**Type:** Home Assistant OS
+**Access:** LAN devices
+
+**Comments:** Open source option to popular home automation devices like Phillips Hue bulbs. Bulbs used are IKEA branded and use ZigBee protocol, connected through a USB zigbee coordinator. Implemented scripting automations for time-based scheduling.
+
 ### Local Network OPNsense
