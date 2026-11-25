@@ -1,6 +1,6 @@
 # HomeLab
 Documentation of segmented personal homelab. Initially created for remote-accessible OpenWebUI instance across machines, grown to more features and used to practice network security. 
-**Hardware:** Lenovo ThinkCentre (Intel I7 / 256GB SSD)
+**Hardware:** Lenovo ThinkCentre (Intel i7 / 256GB SSD)
 **Hypervisor:** Proxmox VE
 ## Services
 
@@ -45,6 +45,6 @@ Allocated 100GB thin provisioned storage, since uploading larger files are more 
 **Type:** Home Assistant OS (VM)
 **Access:** LAN devices
 
-**Comments:** Open source option to popular home automation hubs. Bulbs used are IKEA branded and use ZigBee protocol, connected through a USB zigbee coordinator. Implemented scripting automations for time-based scheduling.
+**Comments:** Open source option to popular home automation hubs. Bulbs used are IKEA branded and use Zigbee protocol, connected through a USB Zigbee coordinator. Implemented scripting automations for time-based scheduling.
 
 ### Local Network OPNsense
