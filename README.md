@@ -1,5 +1,5 @@
 # HomeLab
-Documentation of segmented personal homelab. Initially created for a self hosted, remote-accessible OpenWebUI instance across machines, grown to more features and used to practice network and AI security. 
+Documentation of segmented personal homelab. Initially created for remote-accessible OpenWebUI instance across machines, grown to more features and used to practice network security. 
 **Hardware:** Lenovo ThinkCentre (Intel I7 / 256GB SSD)
 **Hypervisor:** Proxmox VE
 ## Services
@@ -13,7 +13,7 @@ Documentation of segmented personal homelab. Initially created for a self hosted
 Pi-hole useful as blocker for simple ads on search sites, websites, cookie trackers, etc. Also effective to prevent known tracking and security issues when browsing outside network and paired with Tailscale to reroute to home network. Most ads encountered are video embedded (Netflix, Youtube, Amazon) in which it isnt as useful. Has domain permission capabilities, but I havent needed it yet.
 
 ### OpenWebUI
-**Purpose:** Secure self hosted LLM, available on any device
+**Purpose:** Secure LLM interface, available on any device
 **Type:** LXC Container (Debian 13)
 **Version:** v0.11.3
 
