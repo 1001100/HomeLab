@@ -42,9 +42,9 @@ Allocated 100GB thin provisioned storage, since uploading larger files are more 
 
 ### Home Assistant
 **Purpose:** Open source hub to control smart lights and plugs, with room to expand home automation
-**Type:** Home Assistant OS
+**Type:** Home Assistant OS (VM)
 **Access:** LAN devices
 
-**Comments:** Open source option to popular home automation devices like Phillips Hue bulbs. Bulbs used are IKEA branded and use ZigBee protocol, connected through a USB zigbee coordinator. Implemented scripting automations for time-based scheduling.
+**Comments:** Open source option to popular home automation hubs. Bulbs used are IKEA branded and use ZigBee protocol, connected through a USB zigbee coordinator. Implemented scripting automations for time-based scheduling.
 
 ### Local Network OPNsense
